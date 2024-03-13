@@ -14,8 +14,8 @@ listint_t *insert_node(listint_t **head, int number)
 	listint_t *new_node = malloc(sizeof(listint_t));
 	listint_t *searcher = *head;
 	int trouver = 0;
-
-	if (new_node == NULL)
+	
+	if (new_node == NULL || *head == NULL)
 		return (NULL);
 
 	new_node->n = number;
