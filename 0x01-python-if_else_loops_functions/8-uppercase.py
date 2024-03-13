@@ -6,4 +6,3 @@ def uppercase(str):
             i = chr(ascii_code - 32)
         print("{:s}".format(i), end="")
     print("")
-uppercase('LouqManE')
