@@ -6,4 +6,3 @@ for i in range(0, 9):
             if i != 8:
                 print("", end=", ")
 print("")
-
