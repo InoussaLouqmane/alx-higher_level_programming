@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 from calculator_1 import add, sub, mul, div
 
+
 def calcul(argv):
+
     ac = len(argv)
     a = 0
     b = 0
@@ -11,7 +13,7 @@ def calcul(argv):
     a = int(argv[1])
     b = int(argv[3])
     operator = argv[2]
-    if operator not in ['+','-','*','/']:
+    if operator not in ['+', '-', '*', '/']:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
     if operator == '+':
