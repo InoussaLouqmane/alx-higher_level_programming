@@ -12,4 +12,3 @@ if __name__ == "__main__":
     if ac >= 2:
         for i in range(1, ac):
             print("{}: {}".format(i, argv[i]))
-
