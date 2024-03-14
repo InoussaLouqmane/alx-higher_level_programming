@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
-    import py_print
+import py_print
