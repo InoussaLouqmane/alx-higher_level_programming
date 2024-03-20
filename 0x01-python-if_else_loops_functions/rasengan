@@ -1,5 +1,5 @@
 #!/bin/bash
-git add .
-git commit -m "$1"
-git push
-echo "\nDone!"
+echo -e "\n-Betty -styl \n"; 
+/Betty/betty-style.pl $1;
+echo -e "\n\n\n -Betty -doc \n";
+/Betty/betty-doc.pl $1;
